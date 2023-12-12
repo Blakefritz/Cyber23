@@ -1,14 +1,17 @@
 # # Write a multi-line comment with your name, favorite food, and dream job on 3 different lines.
-print("My name is Blake,\nmy favorite food is pasta,\nand my dream job is NBA player")
-
+'''
+My name is Blake,
+my favorite food is pasta,
+and my dream job is NBA player
+'''
 # assign 5 different data types to 5 different variables. At least one datatype must be a string.
-# a = "Dog"
-# b = int(15)
-# c = float(1.432)
-# d = "Cat"
-# e = int(14)
-# # print the length of your string.
-# print(len(a))
+a = "Dog"
+b = int(15)
+c = float(1.432)
+d = True
+e = [1,2,3,4,5]
+# print the length of your string.
+print(len(a))
 
 
 # # create a new variable called savvy, and assign it the string with this phrase "Learning Data Analytics and Python is Awesome!"
@@ -48,25 +51,26 @@ print("My name is Blake,\nmy favorite food is pasta,\nand my dream job is NBA pl
 # add the 2nd and 3rd lists together into a 4th list
 
 
-# my_list = ["basketball", "football", "baseball", "soccer", "tennis"]
-# my_list[2] = "pickleball"
-# my_list.append("hockey")
-# print(my_list)
+my_list = ["basketball", "football", "baseball", "soccer", "tennis"]
+my_list[2] = "pickleball"
+my_list.append("hockey")
+print(my_list)
 
 
 # print(len(my_list))
 
-# middle_index = 3
-# first_list = my_list[:middle_index]
-# print(first_list)
-# second_list = my_list[middle_index:]
-# print(second_list)
-# new_list = first_list + second_list
-# print(new_list)
+middle_index = 3
+first_list = my_list[:middle_index]
+print(first_list)
+second_list = my_list[middle_index:]
+print(second_list)
+new_list = first_list + second_list
+print(new_list)
 
 
-# sim_list = [0, 1, 2, 3, 4]
-# sim_list.sort()
-# new_sim_list = sim_list
-# final_list = second_list + new_sim_list
-# print(final_list)
+simList = [4,3,15,5]
+simList.sort()
+print(simList)
+simList3 = simList.copy()
+final_list = simList + simList3
+print(final_list)
